@@ -1,0 +1,11 @@
+{
+  "name": "@dacio/dynamic-proxy-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@koa/router": "^8.0.8",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-proxy": "^1.0.0-alpha.3"
+  }
+}

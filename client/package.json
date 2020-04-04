@@ -1,0 +1,13 @@
+{
+  "name": "@dacio/dynamic-proxy-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cron": "^1.8.2",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.5"
+  }
+}

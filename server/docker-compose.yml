@@ -1,0 +1,17 @@
+version: "3.2"
+services:
+  dynamic-proxy-client:
+    build: "."
+    restart: "always"
+    labels:
+      traefik.enable: "true"
+      traefik.port: "80"
+      traefik.frontend.rule: "Host:${DOMAIN}"
+    networks:
+      - "web"
+    env_file: ".env"
+    volumes:
+      - "./target.txt:/app/target.txt"
+networks:
+  web:
+    external: true
